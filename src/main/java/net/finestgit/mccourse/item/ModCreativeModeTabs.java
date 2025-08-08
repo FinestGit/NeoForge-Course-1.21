@@ -23,6 +23,9 @@ public class ModCreativeModeTabs {
                     .displayItems((pParameters, pOutput) -> {
                         pOutput.accept(ModItems.BLACK_OPAL);
                         pOutput.accept(ModItems.RAW_BLACK_OPAL);
+                        pOutput.accept(ModItems.CHAINSAW);
+                        pOutput.accept(ModItems.TOMATO);
+                        pOutput.accept(ModItems.FROSTFIRE_ICE);
                     }).build());
     public static final Supplier<CreativeModeTab> BLACK_OPAL_BLOCKS_TAB =
             CREATIVE_MODE_TABS.register("black_opal_blocks_tab", () -> CreativeModeTab.builder()
@@ -36,6 +39,11 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModBlocks.BLACK_OPAL_DEEPSLATE_ORE);
                         pOutput.accept(ModBlocks.BLACK_OPAL_NETHER_ORE);
                         pOutput.accept(ModBlocks.BLACK_OPAL_END_ORE);
+                        pOutput.accept(ModBlocks.MAGIC_BLOCK);
+                        pOutput.accept(ModBlocks.BLACK_OPAL_STAIRS);
+                        pOutput.accept(ModBlocks.BLACK_OPAL_SLAB);
+                        pOutput.accept(ModBlocks.BLACK_OPAL_PRESSURE_PLATE);
+                        pOutput.accept(ModBlocks.BLACK_OPAL_BUTTON);
                     }).build());
 
     public static void register(IEventBus eventBus) {

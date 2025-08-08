@@ -1,6 +1,9 @@
 {
   "item.mccourse.black_opal": "Black Opal",
   "item.mccourse.raw_black_opal": "Raw Black Opal",
+  "item.mccourse.chainsaw": "Chainsaw",
+  "item.mccourse.tomato": "Tomato",
+  "item.mccourse.frostfire_ice": "Frostfire Ice",
 
   "block.mccourse.black_opal_block": "Block of Black Opal",
   "block.mccourse.raw_black_opal_block": "Raw Block of Black Opal",
@@ -8,6 +11,18 @@
   "block.mccourse.black_opal_deepslate_ore": "Black Opal Deepslate Ore",
   "block.mccourse.black_opal_nether_ore": "Black Opal Nether Ore",
   "block.mccourse.black_opal_end_ore": "Black Opal End Ore",
+  "block.mccourse.magic_block": "Magic Block",
+
+  "block.mccourse.black_opal_stairs": "Black Opal Stairs",
+  "block.mccourse.black_opal_slab": "Black Opal Slab",
+  "block.mccourse.black_opal_pressure_plate": "Black Opal Pressure Plate",
+  "block.mccourse.black_opal_button": "Black Opal Button",
+
+  "tooltip.mccourse.chainsaw.tooltip.shift": "Press §eShift§r for more information",
+  "tooltip.mccourse.chainsaw.tooltip.1": "This chainsaw is awesome and will cut down trees",
+  "tooltip.mccourse.chainsaw.tooltip.2": "§oChainsaw go vroom!§r",
+
+  "tooltip.mccourse.magic_block.tooltip.1": "This Block is §9MAGICAL§r",
 
   "itemGroup.mccourse.black_opal_items_tab": "Black Opal Items",
   "itemGroup.mccourse.black_opal_blocks_tab": "Black Opal Blocks"
